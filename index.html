@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tuscany Villa</title>
+	<meta charset="utf-8" />
+
+    <!-- JQuery for the carousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="site.css"/>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar-inverse navbar-custom">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-custom">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="locations"><a href="#">LOCATIONS</a></li>
+                    <li><a href="#amenities">AMENITIES</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- JUMBOTRON -->
+    <div class="row">
+        <div class="imageDimensions col-sm-9" style="padding-right:0">
+            <img src="images/tuscany-villas-sant-anna.jpg" />
+                <div class="jumbotron overlayJumbo">
+                    <div class="test">
+                    <h1>A Tuscany Villa</h1>
+                    <h3 class="jumbo-quote">"We specialize in relaxation."</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="imageDimensions col-sm-3" style="padding-left:0">
+            <img src="images/Versilia.jpg" />
+        </div>
+    </div>
+
+    <!-- LOCATIONS -->
+    <div class="locationsSection">
+        <h2>LOCATIONS</h2>
+        <h4>Some places for you to go...</h4>
+    </div>
+    <div class="locationPadding">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="locationOne">
+                    <h3>Location #1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eros quam, convallis eget nisi a, volutpat mattis libero. Maecenas ac magna et ante gravida tempor ut sed erat. Ut ex velit, laoreet vitae tellus ac, ornare faucibus augue. Proin nec imperdiet mi. Morbi lacinia sodales lobortis. Suspendisse iaculis quam dui, eu vestibulum metus volutpat eu. Ut tempor, urna vel bibendum cursus, mi risus tempor nunc, eu vulputate nulla libero id quam.</p>
+                    <div class="buttonPadding">
+                        <button type="button" class="btn">Reserve Now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="locationPhotos">
+                    <img src="images/italy-mountain-villa.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="locationTwoBackground">
+        <div class="locationPadding">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="locationPhotos">
+                        <img src="images/modern-villa.jpeg" />
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="locationTwo">
+                        <h3>Location #2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eros quam, convallis eget nisi a, volutpat mattis libero. Maecenas ac magna et ante gravida tempor ut sed erat. Ut ex velit, laoreet vitae tellus ac, ornare faucibus augue. Proin nec imperdiet mi. Morbi lacinia sodales lobortis. Suspendisse iaculis quam dui, eu vestibulum metus volutpat eu. Ut tempor, urna vel bibendum cursus, mi risus tempor nunc, eu vulputate nulla libero id quam.</p>
+                        <!-- No .buttonPadding div here because it adds extra spacing upon resizing. -->
+                        <button type="button" class="btn white">Check It Out!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="locationPadding">     
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="locationThree">
+                    <h3>Location #3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eros quam, convallis eget nisi a, volutpat mattis libero. Maecenas ac magna et ante gravida tempor ut sed erat. Ut ex velit, laoreet vitae tellus ac, ornare faucibus augue. Proin nec imperdiet mi. Morbi lacinia sodales lobortis. Suspendisse iaculis quam dui, eu vestibulum metus volutpat eu. Ut tempor, urna vel bibendum cursus, mi risus tempor nunc, eu vulputate nulla libero id quam.</p>
+                    <div class="buttonPadding">
+                        <button type="button" class="btn">Join Us!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="locationPhotos">
+                    <img src="images/tuscany-grape-field-nature-51947.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AMENITIES -->
+    <div class="amenitiesSection">
+        <h2>AMENITIES</h2>
+        <h4>Some stuff for you to enjoy...</h4>
+    </div>
+
+    <!-- RESPONSIVE PHOTOS GRID -->
+    <div class="gridFrame">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="imageDimensions">
+                        <img src="images/3b-348x348.jpg" />
+                    </div>
+                    <div class="overlay">
+                        <h3>RECEPTIONS & EVENTS</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="gridTextFrame">
+                        <h2>A VILLA FOR EVERY OCCASION</h2>
+                        <p>Aliquam erat volutpat. Sed tincidunt leo quis nulla accumsan, vitae vehicula ipsum ornare. Nulla facil isi. Donec soda odio sit amet dolor vulputate, at blandit alum cipat. Integer malesuada.</p>
+                        <button type="button" class="btn">Check It Out!</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="imageDimensions">
+                        <img src="images/42-348x348.jpg" />
+                    </div>
+                    <div class="overlay">
+                        <h3>RELAX BY THE POOL</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="gridTextFrame">
+                        <h2>WHAT SETS US APART</h2>
+                        <p>Phasellus bibendum nibh eu bibendum malesuada. In hac habitasse platea dictumst. Nulla sed elit vel ipsum imperdiet mollis vel ut purus. Aliquam erat volutpat. Maecenas id lectus volutpat, pharetra neque lacinia, pharetra libero.</p>
+                        <button type="button" class="btn">Check It Out!</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="imageDimensions">
+                        <img src="images/314-348x348.jpg" />
+                    </div>
+                    <div class="overlay">
+                        <h3>FEELS LIKE HOME</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="gridTextFrame">
+                        <h2>TALK TO STAFF</h2>
+                        <p>Suspendisse sed pharetra ligula. Nulla vitae finibus ipsum. Nullam blandit purus tortor, eget condimentum leo varius id. Nulla viverra, arcu id aliquet rhoncus, magna orci blandit ex, ut condimentum quam lectus eu elit.</p>
+                        <button type="button" class="btn">Check It Out!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="imageDimensions">
+                        <img src="images/Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
+                    </div>
+                    <div class="overlay">
+                        <h3>ENJOY THE VIEWS</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="gridTextFrame">
+                        <h2>BOOK YOUR VILLA</h2>
+                        <p>Sed in varius purus. Phasellus auctor eu velit non rutrum. Fusce vestibulum vestibulum nibh in pellentesque. Quisque eleifend mattis dolor ut luctus. Morbi cursus semper accumsan. Sed cursus pulvinar ultricies. Cras a massa vel lorem vestibulum commodo.</p>
+                        <button type="button" class="btn">Check It Out!</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="imageDimensions">
+                        <img src="images/Villa-Vanna-231-348x348.jpg" />
+                    </div>
+                    <div class="overlay">
+                        <h3>PRIVATE DINING</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END RESPONSIVE PHOTOS GRID -->
+
+    <!-- REVIEWS SECTION -->
+    <div class="reviewsSection">
+        <h2>REVIEWS</h2>
+        <h4>What our customers say...</h4>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="reviewQuotes">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                <div class="reviewNames">John Doe, Avid Traveler</div>
+            </div>
+            <div class="item">
+                <div class="reviewQuotes">"Sed hendrerit nisl nec urna blandit, sit amet rhoncus massa mollis."</div>
+                <div class="reviewNames">Jane Doe, Fancy Tourist</div>
+            </div>
+            <div class="item">
+                <div class="reviewQuotes">"Donec molestie orci tempus mauris euismod, eu pellentesque metus sagittis."</div>
+                <div class="reviewNames">Kitty Doe, Avid Napper</div>
+            </div>
+        </div>
+        <!-- LEFT- AND RIGHT CONTROLS OF CAROUSEL -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphiconColor"><span class="glyphicon glyphicon-chevron-left"></span></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphiconColor"><span class="glyphicon glyphicon-chevron-right"></span></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- END CAROUSEL -->
+    <!-- END REVIEWS SECTION -->
+    
+    <!-- CONTACT SECTION -->
+    <div class="contactSection">
+        <h2>CONTACT</h2>
+        <h4>We've got the answers.</h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="contactInformation">
+                <p>Contact us, and we will get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Boston, MA</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +1-617-555-7777</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> name@email.com</p>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <div class="formPadding">
+                <form class="form-inline nameEmail">
+                    <label class="sr-only" for="inlineFormInput">Name</label>
+                    <input type="text" class="form-control" placeholder="Name" />
+                    <label class="sr-only" for="inlineFormInput">E-mail</label>
+                    <input type="text" class="form-control" placeholder="E-mail" />
+                </form>
+                <textarea class="form-control" rows="5" placeholder="Comment"></textarea>
+            </div>
+            <div class="buttonPadding">
+                <button type="button" class="btn pull-right">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <a href="index.html" class="backToTopLink"><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <p>Created by Anthony S.</p>
+        <p>© 2017</p>
+    </div>
+</body>
+</html>

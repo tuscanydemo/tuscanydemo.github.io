@@ -1,0 +1,214 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .navbar.pull-right{
+    float:right;
+    margin-right:98px;
+}
+
+.navbar-custom{
+    background-color:#44535A;
+}
+
+.overlayJumbo{
+    position:absolute;
+    padding-top:0%;
+    padding-right:30%;
+    padding-left:30%;
+    text-align:center;
+    background:rgba(68,83,90,0);
+    top:0;
+    width:100%;
+    color:#FFFFFF;
+}
+
+.jumbo-quote{
+    font-style:italic;
+    font-size:150%;
+}
+
+.test{
+    background-color:rgba(68,83,90,0.4);
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.locationsSection{
+    background-color:#44535A;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.locationPadding{
+    padding-top:40px;
+    padding-right:50px;
+    padding-bottom:40px;
+    padding-left:50px;
+}
+
+.buttonPadding{
+    padding-bottom:25px;
+}
+
+.locationTwoBackground{
+    background-color:#44535A;
+}
+
+.locationTwo{
+    color:#FFFFFF;
+}
+
+.locationPhotos img{
+    width:100%;
+    height:100%;
+}
+
+.amenitiesSection{
+    background-color:#44535A;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.overlay{
+    position:absolute;
+    padding-top:0%;
+    padding-right:30%;
+    padding-left:30%;
+    text-align:center;
+    background:rgba(68,83,90,0.6);
+    top:0;
+    width:100%;
+    color:#FFFFFF;
+}
+
+.gridFrame{
+    margin-top:60px;
+    margin-right:30px;
+    margin-bottom:60px;
+    margin-left:30px;
+}
+
+.col-sm-4{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.imageDimensions img{
+    width:100%;
+    height:375px;
+}
+
+.gridTextFrame{
+    padding-top:25px;
+    padding-right:20px;
+    padding-bottom:25px;
+    padding-left:20px;
+    text-align:center;
+    color:#44535A;
+}
+
+.btn{
+    background-color:#44535A;
+    color:#FFFFFF;
+    border-radius:0;
+}
+
+.white{
+    background-color:#FFFFFF;
+    color:#44535A;
+    border-radius:0;
+}
+
+.reviewsSection{
+    background-color:#44535A;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.contactSection{
+    background-color:#44535A;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.carousel-inner{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.carousel-control.left{
+    background-image:none;
+}
+
+.carousel-control.right{
+    background-image:none;
+}
+
+.glyphiconColor{
+    color:#A3A7AE;
+}
+
+.reviewQuotes{
+    font-style:italic;
+    font-size:20px;
+    text-align:center;
+    color:#44535A;
+}
+
+.reviewNames{
+    padding-top:7px;
+    text-align:center;
+    font-size:20px;
+    color:#44535A;
+}
+
+.contactInformation{
+    margin-top:60px;
+    margin-right:25px;
+    margin-bottom:25px;
+    margin-left:40px;
+}
+
+.formPadding{
+    margin-top:60px;
+    margin-right:40px;
+    margin-bottom:25px;
+    margin-left:25px;
+}
+
+.nameEmail{
+    margin-bottom:15px;
+}
+
+.buttonPadding{
+    margin-right:60px;
+    margin-bottom:50px;
+}
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    padding-top:30px;
+    padding-bottom:20px;
+    background-color:#44535A;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+.backToTopLink{
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:20px;
+}
+
